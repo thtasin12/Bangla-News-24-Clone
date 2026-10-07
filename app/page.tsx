@@ -1,11 +1,10 @@
 import React from 'react'
+import Marquee from '@/components/Marquee'
 
 const page = () => {
   return (
-    <div
-    className='min-h-screen min-w-screen text-red-500 justify-center items-center flex font-extrabold'
-    >
-      Hello, World!!
+    <div>
+      <Marquee></Marquee>
     </div>
   )
 }
